@@ -1,0 +1,8 @@
+[package]
+name = "cuda-navigation"
+version = "0.1.0"
+edition = "2021"
+description = "Navigation — pathfinding, waypoint management, obstacle avoidance, and route planning with cost estimation"
+
+[dependencies]
+serde = { version = "1", features = ["derive"] }
