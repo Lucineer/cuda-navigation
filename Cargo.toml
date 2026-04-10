@@ -2,7 +2,12 @@
 name = "cuda-navigation"
 version = "0.1.0"
 edition = "2021"
-description = "Navigation — pathfinding, waypoint management, obstacle avoidance, and route planning with cost estimation"
+description = "A* pathfinding with obstacle avoidance and replanning"
+license = "MIT OR Apache-2.0"
+repository = "https://github.com/Lucineer/cuda-navigation"
+readme = "README.md"
+keywords = ["ai", "fleet", "agent", "rust"]
+categories = ["science"]
 
 [dependencies]
 serde = { version = "1", features = ["derive"] }
